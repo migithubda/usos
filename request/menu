@@ -294,7 +294,7 @@ fi
 IP=$(ofus "$Key" | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}')
 sleep 1s
 [[ -e ${SCPfrm}/lista-arq ]] && {
-  if [[ $(cat ${SCPfrm}/lista-arq) = "KEY DE INSTALA�AO!" ]]; then
+  if [[ $(cat ${SCPfrm}/lista-arq) = "KEY DE INSTALACION!" ]]; then
   echo -e "\033[1;33m$(fun_trans "CHAVE DE INSTALACAO NAO DEVE SER USADA AQUI")"
   msg -bar2
   rm ${SCPfrm}/lista-arq
