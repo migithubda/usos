@@ -137,7 +137,7 @@ mv -f ${SCPinstal}/$1 ${ARQ}/$1
 chmod +x ${ARQ}/$1
 }
 fun_ip
-wget -O /usr/bin/trans https://raw.githubusercontent.com/migithubda/uso/master/Install/trans &> /dev/null
+wget -O /usr/bin/trans https://raw.githubusercontent.com/migithubda/usos/master/Install/trans &> /dev/null
 msg -bar2
 msg -ama "[ ADM - °°°David_Villan°°° ]"
 [[ $1 = "" ]] && funcao_idioma || {
